@@ -6,8 +6,12 @@ markdown# TEG Cosmology: Thermodynamic Entropic Gravity
 
 Python implementation of Thermodynamic Entropic Gravity (TEG) — a phenomenological framework for resolving the S₈ tension through local entropic screening during structure formation.
 
-**Paper:** *"Thermodynamic Self-Regulation of Cosmic Structure: Resolving the S₈ Tension via Local Entropic Screening"* — Ahrley Hughes (2025)
 
+## Paper
+   *"Thermodynamic Self-Regulation of Cosmic Structure: Resolving the S₈ Tension via Local Entropic Screening"* — Ahrley Hughes (2025)
+    
+  -Read the full paper: [TEG-final.pdf](paper/TEG-final.pdf)
+   
 ---
 
 ## Overview
