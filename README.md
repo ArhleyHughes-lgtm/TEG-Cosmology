@@ -67,12 +67,13 @@ The script generates two figures matching the paper:
 - Shows P_TEG / P_ΛCDM ratio versus wavenumber k
 - Suppression activates at k ~ 0.1 h/Mpc in the non-linear regime
 - Linear scales (k < 0.1) remain unaffected, preserving CMB constraints
+![TEG_Figures_1](TEG_Figures_1.png)
 
 **Figure 2: Concentration-Mass Relation**
 - Compares ΛCDM versus TEG halo concentrations
 - TEG predicts "puffier" dwarf halos (M < 10¹¹ M☉)
 - Falsifiable with Euclid weak lensing and Gaia kinematics
-
+![TEG_Figures_2](TEG_Figures_2.png)
 ---
 
 ## Theory Summary
