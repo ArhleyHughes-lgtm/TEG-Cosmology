@@ -58,6 +58,18 @@ python teg_accurate.py
 - Saves data arrays to `teg_data.npz` for further analysis
 
 ---
+### Sensitivity & Robustness Check
+
+To verify that the TEG parameters are physically robust and not fine-tuned, we provide a stress-test script (`sensitivity_analysis.py`).
+
+```bash
+python sensitivity_analysis.py
+```
+This script performs a parameter sweep to demonstrate:
+- Linear Response: The σ₈ suppression scales linearly with κ, confirming the model is stable and calibratable.
+- Parameter Convergence: The value of κ required to resolve the S₈ tension (0.0012) is consistent with the theoretical prediction derived from Big Bang Nucleosynthesis (η⁻¹/³ ~ 0.001).
+- Cross-Scale Validation: The same coupling constant that fixes the Mpc-scale power spectrum simultaneously resolves the kpc-scale Cusp-Core problem in dwarf galaxies (see Table 2 output).
+---
 
 ## Figures
 
