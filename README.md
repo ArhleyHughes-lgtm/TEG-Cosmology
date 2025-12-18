@@ -69,6 +69,7 @@ This script performs a parameter sweep to demonstrate:
 - Linear Response: The σ₈ suppression scales linearly with κ, confirming the model is stable and calibratable.
 - Parameter Convergence: The value of κ required to resolve the S₈ tension (0.0012) is consistent with the theoretical prediction derived from Big Bang Nucleosynthesis (η⁻¹/³ ~ 0.001).
 - Cross-Scale Validation: The same coupling constant that fixes the Mpc-scale power spectrum simultaneously resolves the kpc-scale Cusp-Core problem in dwarf galaxies (see Table 2 output).
+
 ---
 
 ## Figures
@@ -130,6 +131,47 @@ Main components of `teg_accurate.py`:
 | c(M) steepening | Euclid (2025+) | Pending |
 | Dwarf kinematics | Gaia DR4 | Pending |
 | Thawing DE | DESI DR2 | Consistent |
+
+---
+---
+
+## Parameter Derivation and Sensitivity Analysis
+
+### Theoretical Prediction of κ
+
+The coupling constant κ can be derived from the photon-to-baryon ratio (η ≈ 1.6×10⁹) measured independently via Big Bang Nucleosynthesis and CMB observations.
+
+**Dimensional analysis:**
+```
+κ ~ η⁻¹/³ ~ (1.6 × 10⁹)⁻¹/³ ≈ 0.00085
+```
+
+**Observational requirement** (S₈ tension resolution):
+```
+κ_fitted ≈ 0.0012
+```
+
+**Convergence:** Factor of 1.4× between BBN-derived and observationally-fitted values.
+
+### Sensitivity Analysis: Power Spectrum Suppression
+
+Parameter sweep with all cosmological parameters fixed at Planck 2018 values:
+
+![Sensitivity Analysis Table 1](tabel1.jpg)
+
+*Planck baseline: σ₈ = 0.811 | Weak lensing target: σ₈ ≈ 0.764–0.779*
+
+**Result:** BBN-motivated range (κ = 0.0008–0.0012) maps directly onto observational requirement.
+
+### Cross-Scale Test: Dwarf Galaxy Concentrations
+
+The same κ value addresses the Cusp-Core problem in dwarf galaxies (10⁹ M_☉):
+
+![Sensitivity Analysis Table 2](tabel2.jpg)
+
+**Result:** κ = 0.0012 produces 3.5× concentration reduction, matching SPARC core observations.
+
+**Scale separation:** Single parameter resolves tensions at Mpc (power spectrum) and kpc (halo structure) scales simultaneously.
 
 ---
 
