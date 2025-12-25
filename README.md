@@ -110,13 +110,58 @@ python sensitivity_analysis.py
 
 ---
 
-## Falsifiability & Future Tests
+## Model Discrimination (TEG vs. Baryonic Feedback)
 
-TEG makes distinct predictions distinguishable from baryonic feedback:
+A key requirement for any alternative explanation of the S₈ tension is **non-degeneracy** with baryonic feedback models.
 
-1. **Halo Oblateness**: The chiral nature of topological edge states may induce slight oblateness in dwarf halos (Testable with Gaia/Euclid).
-2. **Redshift Dependence**: If κ originates from QHE, suppression should scale with temperature/redshift (Testable with JWST).
-3. **Discrete Steps**: κ may exhibit quantization steps at phase transitions.
+To demonstrate this, we compare the predicted suppression shape from TEG with a representative AGN-feedback suppression profile (schematic, HMCode/OWLS-like).
+
+![Model Discrimination](TEG_vs_Baryons.png)
+
+**Key distinction:**
+- **TEG** produces a monotonic, saturated “shelf” of suppression driven by a fundamental pressure term.
+- **Baryonic feedback** typically produces a localized “spoon” shape with an overshoot at high k due to cooling and star formation.
+
+This qualitative difference provides a clear observational discriminant, independent of overall suppression amplitude.
+
+---
+## Redshift Evolution of Suppression
+
+TEG predicts that suppression should activate primarily at **late times**, consistent with a thawing dark energy interpretation and the absence of an S₈ tension at high redshift.
+
+We parameterize this behavior using a minimal phenomenological ansatz:
+
+\[
+\kappa(z) = \kappa_0 (1 + z)^{-n},
+\]
+
+with \( n > 0 \) indicating weaker effects in the early universe.
+
+![Redshift Evolution](TEG_Redshift_Evolution.png)
+
+For illustrative values \( n \sim 1–2 \), suppression becomes significant only at \( z \lesssim 1 \), matching the redshift range probed by weak lensing surveys.
+
+This scaling is **not assumed as a derivation**, but introduced to demonstrate testable, model-specific predictions distinguishable from baryonic feedback.
+---
+
+## Falsifiability & Testable Predictions
+
+TEG makes concrete predictions distinguishable from both ΛCDM and baryonic feedback models:
+
+### Robust Predictions
+- **Scale-dependent suppression** of the matter power spectrum by ~5–6% for \( k > 0.1\,h/\mathrm{Mpc} \), with no impact on linear scales.
+- **Late-time activation** of suppression, consistent with thawing dark energy behavior.
+- **Mass-dependent reduction of halo concentrations** for \( M \lesssim 10^{11} M_\odot \), reducing central cusps without stochastic feedback effects.
+
+### Model Discriminants
+- The suppression profile exhibits a **monotonic saturation**, unlike the characteristic “spoon” shape of AGN feedback.
+- The redshift evolution of suppression differs qualitatively from baryonic prescriptions tied to star formation history.
+
+### Speculative Extensions (Theoretical)
+- **Halo Oblateness**: If the vacuum exhibits Quantum Hall topology, chiral edge modes may induce small anisotropies in dwarf halos.
+- **Quantization**: If κ reflects topological phase structure, discrete changes may occur across cosmic epochs.
+
+These extensions are secondary to the core, falsifiable predictions above.
 
 ---
 
