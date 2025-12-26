@@ -152,7 +152,54 @@ Script: `plot_model_discrimination.py`
 **Figure: TEG produces a stable 'shelf' of suppression, distinct from the characteristic 'spoon' shape of AGN feedback, offering a clear discriminant for future observations.**
 
 ---
+## Robustness Tests
 
+TEG is intentionally constrained. These tests demonstrate that its predictions are
+**monotonic, shape-invariant, and non-degenerate** with baryonic feedback models.
+
+### 1. Merciless Parameter Sweep
+
+The response of σ₈ to the coupling constant κ is smooth and monotonic.
+There are no instabilities, jumps, or tuning artifacts.
+
+![σ8 sweep](kappa_sweep.png)
+
+Key result:
+- Increasing κ produces controlled suppression
+- The weak-lensing target range is reached naturally
+- No parameter fine-tuning is required
+
+---
+
+### 2. Shape Invariance Test
+
+Changing κ alters only the **amplitude**, not the **shape**, of suppression.
+
+![Shape invariance](shape_invariance.png)
+
+All curves collapse to a single universal profile when normalized.
+This distinguishes TEG from baryonic feedback models, which freely alter shape.
+
+---
+
+### 3. Model Discrimination via Derivatives
+
+Even when power-spectrum ratios appear similar, their derivatives reveal
+distinct physical mechanisms.
+
+![Derivative comparison](TEG_vs_Baryons_Derivative.png)
+
+TEG exhibits:
+- Smooth
+- Monotonic
+- Single-scale behavior
+
+Baryonic feedback exhibits:
+- Inflection points
+- Rebound features
+- Multi-scale tuning
+
+---
 ## Falsifiability and Future Tests
 
 ### Robust Predictions
