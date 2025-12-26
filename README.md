@@ -170,6 +170,17 @@ Key result:
 - No parameter fine-tuning is required
 
 ---
+## Distinguishing TEG from Baryonic Feedback
+
+A common objection to modifications of the matter power spectrum on non-linear scales is the degeneracy with baryonic feedback processes (e.g., AGN feedback, supernovae winds). However, TEG is phenomenologically distinct from baryonic mechanisms in three testable ways:
+
+1. **Derivative Signature (The "Fingerprint"):** Baryonic feedback models (such as those in BAHAMAS or IllustrisTNG) inject energy at specific scales, creating a characteristic 'spoon' feature in the power spectrum ratio—a suppression followed by a high-$k$ rebound or inflection. TEG, by contrast, produces a monotonic, scale-dependent suppression with a smooth gradient (see Figure `TEG_vs_Baryons_Derivative.png`). There is no 'rebound' because there is no energy injection, only a modification of the collapse threshold.
+
+2. **Shape Invariance:** The TEG suppression profile is structurally rigid. Varying the coupling $\kappa$ changes the amplitude but preserves the functional form (see Figure `shape_invariance.png`). Baryonic models are effective field theories with multiple free parameters that can arbitrarily alter the shape of the suppression. TEG cannot be 'tuned' to mimic arbitrary shapes; if the data shows a rebound, TEG is falsified.
+
+3. **Redshift Dependence:** Baryonic effects are cumulative and strongly redshift-dependent, tracking the history of star formation and AGN activity. TEG suppression is tied to the virialization of structure and the effective density contrast, predicting a late-time activation that distinctively tracks the growth factor, independent of local thermodynamic history.
+
+---
 
 ### 2. Shape Invariance Test
 
@@ -202,19 +213,23 @@ Baryonic feedback exhibits:
 ---
 ## Falsifiability and Future Tests
 
-### Robust Predictions
+### Robust, Near-Term Predictions
+The TEG framework makes concrete, falsifiable predictions that stem directly from the modified power spectrum logic. These are not fitted parameters; they are structural consequences of the theory.
 
-1. Scale-dependent suppression without linear-scale impact
-2. Systematic reduction in dwarf-halo concentrations
-3. Absence of high-k power recovery
+* **Scale-Dependent Suppression:** A specific reduction in power on non-linear scales with **zero** impact on linear (CMB) scales (see `kappa_sweep.png`).
+* **Shape Invariance:** The suppression profile maintains a universal shape across different coupling strengths, distinguishing it from arbitrary curve-fitting (see `shape_invariance.png`).
+* **Monotonic High-k Behavior:** Unlike baryonic feedback models (AGN), TEG predicts no high-$k$ power recovery or "rebound" (see `TEG_vs_Baryons_Derivative.png`).
 
-### Speculative Extensions
+These signatures are testable *now* with current weak-lensing data.
 
-1. Mild halo oblateness from chiral edge modes (Gaia / Euclid)
-2. Temperature-dependent κ scaling (JWST high-z lensing)
-3. Possible discrete κ transitions if vacuum topology changes phase
+### Optional Phenomenological Extensions (Distinct from Core Theory)
+The core mechanism resolves the S₈ tension without these additions. However, if the TEG coupling arises from deeper microphysical structure, secondary effects may appear:
 
-Speculative elements are not required for resolving the S₈ tension.
+* **Mild Halo Oblateness:** Potential signature from chiral edge modes, detectable by Gaia/Euclid.
+* **Temperature-Dependent κ Scaling:** Possible variations in high-z lensing observable by JWST.
+* **Discrete κ Transitions:** Theoretical possibility of vacuum topology phase changes.
+
+These effects are **avenues for investigation**, not load-bearing pillars of the primary result.
 
 ---
 
